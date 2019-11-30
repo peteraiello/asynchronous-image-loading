@@ -7,25 +7,14 @@ Understanding callback functions: https://codeburst.io/javascript-what-the-heck-
 // target the first image on page.
 
 let image1 = document.getElementById("image1");
-let image2 = document.getElementById("image2");
-
 let downloadingImage = new Image();
 
 function loadImg(){
     // stimulate a code delay
     setTimeout( function(){
-      console.log('2 seconds is up!');
+      console.log('3 seconds is up!');
       image1.src = "img/dancing-house-hi-quality.jpg";
     }, 2000);
 }
 
-function loadImg2(){
-  // stimulate a code delay
-  setTimeout( function(){
-    console.log('4 seconds is up!');
-    image2.src = "img/dancing-house-hi-quality.jpg";
-  }, 4000);
-}
-
 loadImg();
-loadImg2();
