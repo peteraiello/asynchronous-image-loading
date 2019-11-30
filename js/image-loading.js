@@ -14,7 +14,7 @@ function loadImg(){
     setTimeout( function(){
       console.log('3 seconds is up!');
       image1.src = "img/dancing-house-hi-quality.jpg";
-    }, 2000);
+    }, 3000);
 }
 
 loadImg();
